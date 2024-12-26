@@ -2,11 +2,11 @@ header, main, footer {
     /* margin: 20px; */
     margin: 0 auto;
     text-align: center;
-    max-width: 800px;
     width: 100%;
     box-sizing: border-box;
 }
 main {
+    max-width: 800px;
     padding: 0 20px;
     flex: 1; /* This ensures the main content area takes up the remaining space */
 }
