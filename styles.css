@@ -10,17 +10,28 @@ main {
     padding: 0 20px;
     flex: 1; /* This ensures the main content area takes up the remaining space */
 }
+
 header {
-    background: #f4f4f4;
+    background-color: #D4E9F8; /* light blue */
     padding: 10px;
 }
+
 footer {
-    background: #f4f4f4;
-    background-color: #f5f5f5; 
+    background-color: #D4E9F8; /* or keep consistent with the header */
     padding: 10px;
     margin-top: 2rem; /* Add space above footer */
     padding: 1rem 0;  /* Add some vertical padding inside footer */
 }   
+
+h2, h3 {
+  color: #003366; /* darker shade of blue for headings */
+}
+
+img {
+  float: left;
+  margin: 0 20px 20px 0; /* space around the image */
+  max-width: 200px;
+}
 
 body {
     min-height: 100vh;
@@ -32,7 +43,10 @@ body {
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
+    background-color: #F5F5DC; /* beige-ish */
+    color: #333; /* dark gray */
 }
+
 input, textarea {
     width: 100%;
     max-width: 100%;
@@ -40,6 +54,7 @@ input, textarea {
     margin-bottom: 10px;
     padding: 10px;
 }
+
 button {
     background: #5cb85c;
     color: white;
@@ -47,6 +62,7 @@ button {
     padding: 10px 15px;
     cursor: pointer;
 }
+
 form {
     /* max-width: 600px; */
     max-width: 100%;
@@ -54,8 +70,17 @@ form {
     padding: 0 20px;
     box-sizing: border-box;
 }
+
 section {
     width: 100%;
     padding: 0 20px;
     box-sizing: border-box;
+    background-color: #FFF; /* white for readability */
+}
+
+blockquote {
+  font-style: italic;
+  border-left: 4px solid #ADD8E6; /* a slightly stronger blue border */
+  padding-left: 10px;
+  margin: 1rem 0;
 }
